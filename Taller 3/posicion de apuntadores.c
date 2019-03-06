@@ -17,9 +17,9 @@ void operacion (int *num1, int *num2){
 	*suma = *num1 + *num2;
 	printf("\n El resultado de la suma es %d",*suma);
 	for(i=0;i<1; i++){
-		printf("\n Posición suma %p",*suma);
-		printf("\n Posición numero 1 %p",*num1);
-		printf("\n Posición numero 2 %p",*num2);
+		printf("\n Posición suma %p",&suma);
+		printf("\n Posición numero 1 %p",&num1);
+		printf("\n Posición numero 2 %p",&num2);
 	}
 	
 }
